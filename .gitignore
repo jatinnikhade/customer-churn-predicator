@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Generated model artifacts (re-created by `python train.py` or on first app launch)
+models/*.joblib
+models/metrics.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
